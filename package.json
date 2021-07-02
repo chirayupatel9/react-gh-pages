@@ -1,0 +1,63 @@
+{
+  "name": "chirayupatel9.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material/card": "^11.0.0",
+    "@popmotion/popcorn": "^0.4.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/lodash": "^4.14.136",
+    "@types/react-router-dom": "^4.3.4",
+    "card": "^2.5.3",
+    "framer": "^1.3.4",
+    "framer-motion": "^1.6.0",
+    "lodash": "^4.17.21",
+    "npm": "^7.19.0",
+    "popmotion": "^9.0.0-beta-8",
+    "react": "^16.8.4",
+    "react-datetime": "^3.0.4",
+    "react-dom": "^16.8.4",
+    "react-lorem-ipsum": "^1.4.3",
+    "react-parallax": "^3.3.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^2.1.3",
+    "start": "^5.1.0",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.0.1",
+    "homepage": "http://chirayupatel9.github.io/chirayupatel9.github.io"
+
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
